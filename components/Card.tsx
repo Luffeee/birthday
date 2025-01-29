@@ -42,7 +42,7 @@ const Card: React.FC = () => {
               <div className="wrap">
                 <p>Happy Birthday, Sara!</p>
                 <p>
-                  This is your 20th birthday. And we've been together for 6
+                  This is your 20th birthday. And we have been together for 6
                   months now. I love you so much and you mean the world to me.
                 </p>
                 <p>I hope you have a very blessed birthday!</p>

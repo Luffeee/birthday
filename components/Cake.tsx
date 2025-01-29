@@ -8,8 +8,6 @@ import Link from "next/link";
 
 const Cake: React.FC = () => {
   const [candlesBlownOut, setCandlesBlownOut] = useState<boolean>(false);
-  const [micPermissionGranted, setMicPermissionGranted] =
-    useState<boolean>(false);
 
   useEffect(() => {
     let audioContext: AudioContext | null = null;
@@ -65,7 +63,6 @@ const Cake: React.FC = () => {
 
     const permissionDelay = setTimeout(() => {
       initBlowDetection();
-      setMicPermissionGranted(true);
     }, 10000); // permission delay
 
     return () => {

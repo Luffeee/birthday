@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { picture1, picture2, picture3, picture4 } from "../assets";
 import Link from "next/link"; // Updated import for Next.js
 import SectionWrapper from "./SectionWrapper";
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 // Add your own images by putting them in the assets folder and import them.
 const images: StaticImageData[] = [picture1, picture2, picture3, picture4];
@@ -50,7 +50,7 @@ const Picture: React.FC = () => {
           }}
           drag
         >
-          <img
+          <Image
             src={image.src}
             alt={`Stacked image ${index + 1}`}
             className="w-full h-full object-cover rounded-lg shadow-lg"
