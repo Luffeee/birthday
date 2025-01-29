@@ -5,6 +5,7 @@ import "../assets/css/cake.css";
 import { CakeSVG, confetti } from "../assets";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import "../assets/css/cake.css";
 
 const Cake: React.FC = () => {
   const [candlesBlownOut, setCandlesBlownOut] = useState<boolean>(false);

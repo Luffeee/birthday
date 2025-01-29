@@ -6,6 +6,7 @@ import { picture1, picture2, picture3, picture4 } from "../assets";
 import Link from "next/link"; // Updated import for Next.js
 import SectionWrapper from "./SectionWrapper";
 import Image, { StaticImageData } from "next/image";
+import "../assets/css/present.css";
 
 // Add your own images by putting them in the assets folder and import them.
 const images: StaticImageData[] = [picture1, picture2, picture3, picture4];
