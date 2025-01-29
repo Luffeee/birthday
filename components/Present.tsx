@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import SectionWrapper from "./SectionWrapper";
 import "../assets/css/present.css"; // Ensure this path is correct for Next.js
